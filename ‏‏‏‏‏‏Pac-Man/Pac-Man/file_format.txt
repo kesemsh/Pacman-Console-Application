@@ -1,0 +1,29 @@
+command line:
+one of the following options:
+-save
+-load
+-load -silent
+-save -silent (will also accept as save mode and ignoring the silent)
+
+steps file:
+first line is the fruit's starting position-
+": x,y"
+
+for pacman use key for direction-
+": W" for up.
+": X" for down.
+": A" for left.
+": D" for right.
+": S" for stay.
+
+for ghost and fruit use direction-
+": 0" for up.
+": 1" for down.
+": 2" for left.
+": 3" for right.
+
+result file:
+for point of time x-
+"dies: x" or "wins: x"
+
+***important to keep the end of each line as obove, before it you can add whatever you want.***
